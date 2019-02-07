@@ -1,0 +1,68 @@
+TESTS WITH ERRORS 
+test13 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/gradingtests.py", line 370, in test13
+    KB.kb_retract(fact1)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/student_code.py", line 201, in kb_retract
+    self.kb_retract_helper(fct)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/student_code.py", line 133, in kb_retract_helper
+    if f.supported_by == False and f.asserted == False:
+UnboundLocalError: local variable 'f' referenced before assignment
+
+test14 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/gradingtests.py", line 399, in test14
+    KB.kb_retract(fact1)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/student_code.py", line 201, in kb_retract
+    self.kb_retract_helper(fct)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/student_code.py", line 133, in kb_retract_helper
+    if f.supported_by == False and f.asserted == False:
+UnboundLocalError: local variable 'f' referenced before assignment
+
+test4 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/gradingtests.py", line 83, in test4
+    KB.kb_retract(fact1)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/student_code.py", line 201, in kb_retract
+    self.kb_retract_helper(fct)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/student_code.py", line 133, in kb_retract_helper
+    if f.supported_by == False and f.asserted == False:
+UnboundLocalError: local variable 'f' referenced before assignment
+
+test5 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/gradingtests.py", line 121, in test5
+    KB.kb_retract(fact1)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/student_code.py", line 201, in kb_retract
+    self.kb_retract_helper(fct)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/student_code.py", line 133, in kb_retract_helper
+    if f.supported_by == False and f.asserted == False:
+UnboundLocalError: local variable 'f' referenced before assignment
+
+test9 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/gradingtests.py", line 258, in test9
+    KB.kb_retract(fact1)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/student_code.py", line 201, in kb_retract
+    self.kb_retract_helper(fct)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/student_code.py", line 133, in kb_retract_helper
+    if f.supported_by == False and f.asserted == False:
+UnboundLocalError: local variable 'f' referenced before assignment
+
+-------------------------------
+TESTS FAILED  
+test10 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/gradingtests.py", line 282, in test10
+    self.assertFalse(answer2)
+AssertionError: True is not false
+
+test11 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-inference/gradingtests.py", line 322, in test11
+    self.assertFalse(answer1)
+AssertionError: ListOfBindings([(Bindings({}, []), [Fact('fact', Statement('immortal', [Term(Constant('A'))]), False, [], [], [])])]) is not false
+
+-------------------------------
+TESTS SKIPPED 
+-------------------------------
